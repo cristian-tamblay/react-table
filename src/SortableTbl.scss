@@ -9,16 +9,16 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 				position: relative;
 				text-align: center;
 				min-height: 80px;
-				background-color: #db3615;
+				background-color: #3ece76;
 				color: #fff;
 				padding: 5px;			
 				line-height: 25px;
 				height: 80px;
-				border-bottom: 5px solid #ccc;
+				border-bottom: 5px solid #3ece76;
 			}				
 			th.sort-desc, th.sort-asc{
 					background-color: #E0914C;
-					border-bottom: 5px solid #C70000;
+					border-bottom: 5px solid #3ece76;
 			}
 		}
 		tbody td:first-child {
@@ -54,7 +54,7 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 			-moz-border-radius: 15px;
 			-webkit-border-radius: 15px;
 			border-radius: 15px;
-			border: 2px solid #c30;
+			border: 2px solid #3ece76;
 		}
    }
    .pager{
