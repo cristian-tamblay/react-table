@@ -11,7 +11,7 @@ const SortableTblTd = (props) => {
 						.custd;
 
 				if (!CustomTd)
-					return (<td key={id} style={{textAlign : 'center'}}>{props.tdData[item]}</td>);
+					return (<td key={id}>{props.tdData[item]}</td>);
 
 				if (CustomTdComponent)	{
 					return (<CustomTdComponent key={id} {...props} tdData={props.tdData[item]} field={item} rowData={props.tdData}/>);
